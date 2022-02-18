@@ -79,7 +79,7 @@ function inputUse() {
 function clearComplete(){
     const toggle = document.querySelectorAll('.toggle');
     toggle.forEach( elem =>{
-        if(elem.checked)
+        if(elem.checked)``
         {
             elem.parentElement.parentElement.remove();
         }
